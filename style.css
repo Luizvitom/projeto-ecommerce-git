@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.interface{
+    padding: 0 10%;
+    
+}
+
+.flex{
+    display: flex;
+    
+}
+
+/* ESTILO HEADER */
+.header-top{
+    background-color: #b32416;
+    height: 120px;
+}
+
+.container-1{
+    color: #ffffffd6;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 120px;
+}
+
+.left-top ul.left-top{
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+ul.left-top li{
+    padding: 0 5px;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-top ul.right-top{
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+ul.right-top li{
+    padding: 0 5px;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-2{
+    gap: 120px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.left-top2{
+    gap: 20px;
+    display: flex;
+}
+
+.main-top2{
+    width: 800px;
+    height: 40px;
+    background-color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 0 10px;
+    border-radius: 2px;
+}
+
+img.logo{
+    width: 80px;
+    border-radius: 50%;
+}
+
+.search-bar{
+    width:720px ;
+    border: 0;
+}
+
+.btn-search{
+    background-color: #b32416;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    display: flex;
+}
+
+button.btn-lupa{
+    align-items: center;
+    justify-content: center;
+    background-color: #b32416;
+    border: 0;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 2px;
+}
+
+.cart{
+    color: #fff;
+    
+}
+
+/* ESTILO MAIN */
+
+.main-top{
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+.container{
+    display: flex;
+    gap: 20px;
+}
+
+/* ESTILO PRODUTOS */
+
+section.produtos{
+    padding: 5px 10px;
+}
+section.produtos .interface{
+    width: 800px;
+}
+
+section.produtos .flex{
+    gap:55px;
+}
+img.banner-top{
+    width: 600px;
+    height: 250px;
+}
+
+.produtos .produtos-box{ 
+    padding: 0px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    transition: .2s;
+}
+
+.produtos .produtos-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #4791dbd7;
+}
+
+.produtos .produtos-box img{
+    height: 70px;
+    text-align: center;
+}
+
+/* ESTILO SECTION OFERTAS */
+
+section.main{
+    background-color: #e5e5e57d;
+    
+}
+
+section.ofertas .interface{
+    justify-content: center;
+    align-items: center;
+}
+
+section.ofertas .interface{
+    padding: 0 12.5%;
+}
+
+.ofertas-produtos{
+    background-color: #fff;
+    padding: 5px 10px;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+a.ver-tudo{
+    text-decoration: 0;
+    color: #cb3621;
+    cursor: pointer;
+    float: right;
+    display: flex;
+}
+
+.container-of-txt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ofertas-text{
+    color:#cb3621;
+    display: flex;
+}
+
+.ofertas-txt2{
+    display: flex;
+    
+}
+
+.ofertas-box{
+    display: flex;
+    gap:40px;
+    text-align: center;
+    color:#cb3621;
+}
+
+img.oferta-produto{
+    width: 150px;
+    
+    
+}
+
+/* ESTILO BANNER CUPOM */
+
+
+.bannercupom .interface{
+    padding: 10px 12.5%;
+}
+
+.bannercupom .bannercup{
+    width: 1120px;
+    height: 182px;
+    
+}
+
+.bannercup img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* ESTILO SECTION OFERTAS */
+
+
+section.destaques .interface{
+        padding: 0 12.5%;
+    
+}
+
+.destaques-produtos{
+    background-color: #fff;
+    padding: 5px 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+a.ver-tudo{
+    text-decoration: 0;
+    cursor: pointer;
+    float: right;
+    display: flex;
+    color:#cb3621;
+}
+
+.container-dest-txt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.destaque-text{
+    display: flex;
+    color:#cb3621;
+}
+
+.destaque-txt2{
+    display: flex;
+}
+
+.destaques-box{
+    display: flex;
+    gap:40px;
+    text-align: center;
+    color:#cb3621;
+}
+
+img.destaque-produto{
+    width: 150px;
+    
+}
+
+/* section descobertas */
+section.descobertas .interface{
+    padding: 5px 12.5%;
+    margin-top: 30px;
+}
+
+section.descobertas .descoberta{
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    width: 1120px;
+    padding: 10px;
+    border-bottom: 5px solid #e84227;
+    position: sticky;
+}
+
+.descoberta-txt{
+    justify-content: center;
+    display: flex;
+    color:#cb3621;
+}
+.descoberta-txt h5{
+    font-size: 18px;
+}
+
+section.descobertas-prod .interface{
+    padding: 0 12.5%;
+}
+
+.descobertas-prod{
+    
+    padding: 0 12px;
+    margin-right: 5px;
+}
+
+.descobertas-box{
+    padding: 5px 0px;
+    display: flex;
+    gap:10px;
+    text-align: center;
+    margin:0;
+}
+.descobertas-produto{
+    cursor: pointer;
+    transition: .1s;
+    border: 2px solid #e5e5e57d;
+}
+
+.descobertas-produto:hover{
+    border: 2px outset #bf1d40a5;
+    
+}
+img.descobertas-produt{
+    width: 100%;
+    border:0;
+}
+
+.card-produto{
+    background-color: #fff;
+    height: 100%;
+}
+
+/* ESTILO FOOTER */
+
+section.footer .interface{
+    padding: 50px 12.5%;
+    box-shadow: 0 0 2px 1px #0000007b;
+    
+    border-top: 5px solid #e84227;
+}
+
+.footer-container{
+    width: 1120px;
+    
+}
+.footer-container .container-txt{
+    border-bottom: 2px solid #cbcbcb61;
+    padding-bottom: 30px;
+}
+.footer-container .container-txt h4{
+    line-height: 2;
+}
+
+.footer-container .contents{
+    display: flex;
+    padding-top: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container .contents .container{
+    display: block;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container .contents .container h4{
+    font-size: 18px;
+    
+}
+
+.footer-container .contents .container h3{
+    font-size: 15px;
+    line-height: 2;
+}
+
+.footer-container .container-txt2{
+    border-top: 2px solid #cbcbcb61;
+    padding-top: 30px;
+    margin-top: 20px;
+}
+
+
+
+
